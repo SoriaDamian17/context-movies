@@ -1,0 +1,27 @@
+.button {
+	background: transparent;
+	position: relative;
+    z-index: 200;
+    margin: 15px auto;
+    padding: 10px 15px;
+    border: 1px solid #FFCB39;
+    border-radius: 100px;
+    font-weight: 400;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 11px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+
+	&:hover {
+		background-color: #FFCB39;
+		color: #fff;
+		transform: scale(1.05);
+	}
+}
